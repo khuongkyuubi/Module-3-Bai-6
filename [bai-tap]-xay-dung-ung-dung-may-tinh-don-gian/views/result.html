@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+</head>
+<body>
+
+<form action="" method="post">
+    <table>
+        <tr>
+            <td></td>
+            <td><h3>Simple calc</h3></td>
+
+        </tr>
+        <tr>
+            <td><label for="number-1">Number 1</label></td>
+            <td><input id="number-1" type="number" name="number1" size="5" value="{number1}" placeholder="0" ></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <select name="calc" id="calc" >
+                    <option value="sum" {sum} >+</option>
+                    <option value="sub"  {sub}>-</option>
+                    <option value="multi" {multi}>*</option>
+                    <option value="div" {div}>/</option>
+                    <option value="mod" {mod}>%</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="number-2">Number 2</label></td>
+            <td><input id="number-2" type="number" name="number2" size="5" value="{number2}" placeholder="0" ></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button type="submit">Result</button>
+            </td>
+        </tr>
+    </table>
+    <p>Result: {result} </p>
+</form>
+</body>
+</html>
