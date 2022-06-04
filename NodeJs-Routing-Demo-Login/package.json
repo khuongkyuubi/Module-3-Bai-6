@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "http-server": "^14.1.0",
+    "qs": "^6.10.3",
+    "readfile": "^1.0.1",
+    "router": "^1.3.6",
+    "string_decoder": "^1.3.0",
+    "url": "^0.11.0"
+  }
+}
